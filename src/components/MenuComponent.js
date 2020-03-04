@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardImgOverlay, CardTitle } from 'reactstrap';
 
 
 class Menu extends Component {
 
 	constructor(props) {
 		super(props);
-
+		console.log('Menu Component constructor invoked')
 	}
 
 	render() {
