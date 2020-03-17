@@ -1,5 +1,5 @@
  import React, { Component } from 'react';
- import { Breadcrumb, BreadcrumbItem, Button, Label, Col, Row, FormFeedback } from 'reactstrap';
+ import { Breadcrumb, BreadcrumbItem, Button, Label, Col, Row } from 'reactstrap';
  import { Link } from 'react-router-dom';
  import { Control, LocalForm , Errors } from 'react-redux-form'; 
 
@@ -100,7 +100,7 @@
                                         />
                                     <Errors
                                         className="text-danger"
-                                        model=".firstname"
+                                        model=".lastname"
                                         show="touched"
                                         messages={{
                                             required: 'Required',
